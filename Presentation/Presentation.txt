@@ -1,0 +1,29 @@
+
+-->
+
+Hallo, ich würde gerne aktivität-Diagramm von Spiel zurücksetzen vorstellen.
+
+In dem Spiel darf man den Zug bei jeder Runde einmal zurücksetzen.
+
+
+Zum Beginn des Vorgangs klickt der Spieler den zurücksetzen-Button, wenn man seine Figur falsch bewegt hat. 
+
+Danach wird es gameHistory in dem System angefordert.
+
+Dann prüft das System den aktuellen Spielzug ob der Erster Spielzug ist，weil der erste Spielzug weder letzte Runde noch letzten Zug hat. 
+Wenn ja, wird es eine Fehlermeldung ausgegeben.
+
+Ansonsten setzt das System automatisch den Zug vom letzten Spieler in der history zurück. 
+
+In dem Moment sollen wir darauf berücksichtigen dass der letzter Zug zu dem KI oder zu dem menschlichen Spieler gehört.
+
+wir wollen den Zug natürlich nicht zurück zu dem letzten Zug der von KI bewegt wurde. Das macht aber keinen Sinn. 
+
+Deswegen ist es der Grund warum wir eine Abfrage hier eingesetzt haben, um die Menschlichkeit zu prüfen.
+
+Genauer gesagt, wenn letzter Zug von dem KI ist, wird das System den letzten Spielzug davor in gameHistory nochmal wieder überprüfen bis den von dem menschlichen Spieler ist.
+
+und jetzt Da hat das System den richtigen Zug festgestellt, werden Karten und Positionen umgesetzt wie in dem letzten Zug.
+
+Ok. Das war es. Gibt es irgendwelche Frage?
+
